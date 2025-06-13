@@ -745,7 +745,7 @@ async def health_check():
         )
 
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
+#app.mount("/static", StaticFiles(directory="static"), name="static")
 
 
 @app.get("/")
